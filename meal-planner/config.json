@@ -1,0 +1,29 @@
+{
+  "name": "Meal Planner (Development)",
+  "version": "0.14.1",
+  "slug": "meal_planner",
+  "description": "Familiens madplan, opskrifter, brugerprofiler og AI-chat",
+  "url": "https://github.com/clausjuul/home-assistant-apps",
+  "arch": [
+    "aarch64"
+  ],
+  "startup": "application",
+  "boot": "auto",
+  "init": false,
+  "ingress": true,
+  "homeassistant_api": true,
+  "ingress_port": 8099,
+  "panel_icon": "mdi:food",
+  "panel_title": "Meal Planner",
+  "panel_admin": true,
+  "options": {
+    "openai_api_key": "",
+    "prej_api_key": ""
+  },
+  "schema": {
+    "openai_api_key": "password",
+    "prej_api_key": "password"
+  },
+  "stage": "experimental",
+  "image": "ghcr.io/clausjuul/md-dashboard-meal-planner"
+}
