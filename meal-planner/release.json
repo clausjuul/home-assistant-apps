@@ -1,5 +1,5 @@
 {
-  "version": "0.15.0",
-  "sourceSha": "15370a24d9b94c4926e491c38158fbf8c1cad5ec",
-  "image": "ghcr.io/clausjuul/md-dashboard-meal-planner:0.15.0"
+  "version": "0.16.0",
+  "sourceSha": "efe7fe86999fc9459f9f41d9cecb1d0e2454a2d3",
+  "image": "ghcr.io/clausjuul/md-dashboard-meal-planner:0.16.0"
 }
