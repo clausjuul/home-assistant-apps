@@ -9,3 +9,9 @@ Repository-URL: https://github.com/clausjuul/home-assistant-apps
 [Installation, flytning fra lokal app og opdateringer](meal-planner/DOCS.md)
 
 Installationsoplysninger og Docker-image er offentlige. Udviklingsrepoet forbliver privat. Personlige installationsdata og API-nøgler medfølger ikke.
+
+## Entity Match Card
+
+Lovelace-card der finder entities ud fra filtre (domain, entity_id, område, etage, enhed, label) og viser dem med et valgfrit card. Installeres via HACS som custom repository af typen **Dashboard**.
+
+[Dokumentation](entity-match-card.md)
